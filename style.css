@@ -8,20 +8,21 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .card {
   display: flex;
-  width: 60%;
-  /* height: 36%; */
+  height: 22rem;
   /* align-items: center; */
   justify-content: center;
+  overflow: hidden;
+  
 }
 img {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
-  height: 346px;
+  height: 22rem;
   /* size: cover; */
   width: 204px;
 }
@@ -44,7 +45,7 @@ img {
   background-color: white;
   flex-direction: column;
   justify-content: center;
-  height: 315px;
+  height: 21rem;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   padding: 19px 25px;
